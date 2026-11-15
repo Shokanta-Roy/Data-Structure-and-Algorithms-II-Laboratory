@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe build active file",
+      "command": "D:\\Development-Environment-Setup\\tools\\msys64\\ucrt64\\bin\\g++.exe",
+      "args": [
+        "-std=c++17",
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Build active C++ file with MSYS2 UCRT64 G++ using C++17."
+    }
+  ],
+  "version": "2.0.0"
+}
